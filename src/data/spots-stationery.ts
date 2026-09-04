@@ -1,0 +1,206 @@
+import { Spot } from '../types';
+
+export const STATIONERY_SPOTS: Spot[] = [
+  {
+    id: 'postcard-office',
+    name: '포스트카드 오피스 (Postcard Office)',
+    category: 'stationery',
+    categoryLabel: '문구샵',
+    region: 'downtown',
+    regionLabel: '시내·교동',
+    rating: 4.9,
+    reviewCount: 1850,
+    coordinates: [37.7618, 128.8912],
+    address: '강원 강릉시 화부산로40번길 29 상가 5호',
+    openingHours: '12:00 - 18:00 (매주 화, 수요일 정기휴무)',
+    priceRange: '엽서 1,500원~ / 문구 3,000원~',
+    shortDesc: '전국 문구 덕후들의 필수 순례지! 수백 종의 감성 엽서와 실링왁스, 만년필',
+    fullDesc: '강릉을 대표하는 엽서 및 스테이셔너리 전문 브랜드. 벽면을 가득 채운 국내외 작가들의 수백 가지 일러스트 엽서와 사진 엽서, 실링왁스 키트, 마스킹테이프, 빈티지 스탬프, 감성 필기구를 만날 수 있습니다. 매장 한 켠에서 직접 편지를 써서 보낼 수 있는 우체통 데스크도 마련되어 있습니다.',
+    signatureItems: [
+      { name: '강릉 사계절 사진 & 일러스트 엽서', price: '1,500원~', isBest: true, desc: '바다, 솔숲, 골목길 풍경을 담은 시그니처 엽서' },
+      { name: '실링왁스 인장 세트', price: '16,000원', isBest: true, desc: '아날로그 감성의 편지 봉투 봉인 키트' },
+      { name: '포스트카드 오피스 자체제작 마스킹테이프', price: '4,500원', isBest: false, desc: '다이어리 꾸미기에 최적화된 테이프' },
+    ],
+    tips: [
+      '엽서를 구매한 뒤 현장에서 스탬프를 찍고 실링왁스 체험을 해볼 수 있습니다.',
+      '화·수요일은 정기 휴무이므로 방문 일정 계획 시 꼭 확인하세요.'
+    ],
+    tags: ['감성소품', '선물용포장'],
+    imageUrl: 'https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80',
+    naverMapUrl: 'https://map.naver.com/v5/search/%ED%8F%AC%EC%8A%A4%ED%8A%B8%EC%B9%B4%EB%93%9C%EC%98%A4%ED%94%BC%EC%8A%A4',
+    kakaoMapUrl: 'https://map.kakao.com/?q=%ED%8F%AC%EC%8A%A4%ED%8A%B8%EC%B9%B4%EB%93%9C%EC%98%A4%ED%94%BC%EC%8A%A4',
+    isMustVisit: true
+  },
+  {
+    id: 'like-august',
+    name: '라이크 어거스트 (LIKE AUGUST)',
+    category: 'stationery',
+    categoryLabel: '문구샵',
+    region: 'downtown',
+    regionLabel: '시내·교동',
+    rating: 4.8,
+    reviewCount: 1620,
+    coordinates: [37.7635, 128.8925],
+    address: '강원 강릉시 교동 182-13 (화부산로 18)',
+    openingHours: '12:00 - 18:30 (수요일 휴무)',
+    priceRange: '스티커 2,500원~ / 굿즈 5,000원~',
+    shortDesc: '자체 제작 캐릭터 굿즈와 귀염뽀짝 다꾸 스티커, 메모패드가 가득한 문구점',
+    fullDesc: '귀여운 감성의 자체 캐릭터 디자인 문구와 스티커, 패브릭 파우치, 컵, 키링으로 유명한 강릉 교동의 대표 문구샵. 강릉역에서 도보로 15분 거리에 있어 뚜벅이 여행자들의 필수 방문 코스입니다.',
+    signatureItems: [
+      { name: '라이크어거스트 씰스티커 팩', price: '3,000원', isBest: true, desc: '다이어리 꾸미기에 좋은 아기자기한 캐릭터 스티커' },
+      { name: '강릉 여행 감성 메모패드', price: '3,500원', isBest: false, desc: '체크리스트와 일상 기록용 떡메모지' },
+      { name: '코튼 자수 스트링 파우치', price: '12,000원', isBest: true, desc: '문구류와 소지품을 쏙 넣는 파우치' },
+    ],
+    tips: [
+      '포스트카드 오피스, 레드망치와 도보 이동 거리에 있어 교동 소품·문구 투어로 묶어 방문하기 좋습니다.',
+      '시즌마다 신상 스티커와 자체 제작 굿즈가 새로 입고됩니다.'
+    ],
+    tags: ['감성소품', '가성비'],
+    imageUrl: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80',
+    naverMapUrl: 'https://map.naver.com/v5/search/%EB%9D%BC%EC%9D%B4%ED%81%AC%EC%96%B4%EA%B1%B0%EC%8A%A4%ED%8A%B8',
+    kakaoMapUrl: 'https://map.kakao.com/?q=%EB%9D%BC%EC%9D%B4%ED%81%AC%EC%96%B4%EA%B1%B0%EC%8A%A4%ED%8A%B8',
+    isMustVisit: true
+  },
+  {
+    id: 'bread-bread-banana',
+    name: '브레드브레드바나나 (BBB)',
+    category: 'stationery',
+    categoryLabel: '문구샵',
+    region: 'downtown',
+    regionLabel: '시내·임영로',
+    rating: 4.8,
+    reviewCount: 980,
+    coordinates: [37.7538, 128.8920],
+    address: '강원 강릉시 임영로 142-1 1층',
+    openingHours: '12:30 - 18:00 (목, 금 휴무)',
+    priceRange: '팬시 문구 2,000원 ~ 18,000원',
+    shortDesc: '알록달록 키치하고 위트 넘치는 디자인 문구 & 캐릭터 팬시 셀렉트숍',
+    fullDesc: '노란 바나나 캐릭터처럼 유쾌하고 사랑스러운 문구 잡화점. 전국 인기 디자이너 작가들의 아크릴 키링, 스티커, 필통, 귀여운 양말, 펜, 레트로 컵 등 보는 것만으로 기분이 좋아지는 키치한 문구 아이템이 가득합니다.',
+    signatureItems: [
+      { name: '바나나 & 빵 아크릴 스마트톡', price: '9,500원', isBest: true, desc: '위트 있는 그래픽의 시그니처 그립톡' },
+      { name: '디자이너 씰스티커 모음', price: '2,500원~', isBest: true, desc: '취향 저격 일러스트 스티커' },
+    ],
+    tips: [
+      '임영로 소품샵 거리(오어즈, 유라유라, 사유의 공간)와 인접해 함께 걷기 좋습니다.',
+      '소소한 친구 생일 선물이나 여행 기념 굿즈로 제격입니다.'
+    ],
+    tags: ['감성소품', '가성비'],
+    imageUrl: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80',
+    naverMapUrl: 'https://map.naver.com/v5/search/%EB%B8%8C%EB%A0%88%EB%93%9C%EB%B8%88%EB%A0%88%EB%93%9C%EB%B0%94%EB%82%98%EB%82%98',
+    kakaoMapUrl: 'https://map.kakao.com/?q=%EB%B8%8C%EB%A0%88%EB%93%9C%EB%B8%88%EB%A0%88%EB%93%9C%EB%B0%94%EB%82%98%EB%82%98'
+  },
+  {
+    id: 'whale-books',
+    name: '고래책방 (Whale Books & Goods)',
+    category: 'stationery',
+    categoryLabel: '문구샵',
+    region: 'downtown',
+    regionLabel: '시내·옥천동',
+    rating: 4.8,
+    reviewCount: 3200,
+    coordinates: [37.7562, 128.9015],
+    address: '강원 강릉시 율곡로 2848 (옥천동)',
+    openingHours: '09:00 - 20:00 (연중무휴)',
+    priceRange: '도서 및 문구 2,000원~',
+    shortDesc: '지하부터 4층까지! 대형 독립서점 & 강릉 로컬 디자인 문구·굿즈 스토어',
+    fullDesc: '동해 바다의 고래처럼 넓고 따뜻한 복합 문화 서점. 강릉의 문화와 풍경을 담은 로컬 독립출판물은 물론, 강릉 작가들이 제작한 일러스트 엽서, 북마크, 독서노트, 필기구, 에코백 등 방대한 문구 굿즈 코너를 갖추고 있습니다.',
+    signatureItems: [
+      { name: '강릉 바다 고래 메탈 북마크', price: '6,000원', isBest: true, desc: '정교한 고래 형태의 금속 책갈피' },
+      { name: '고래책방 독서 기록 노트', price: '8,000원', isBest: false, desc: '책 읽는 사람들을 위한 문장 수집 노트' },
+      { name: '강릉 로컬 작가 일러스트 엽서', price: '2,000원', isBest: true, desc: '강릉의 명소를 섬세하게 그린 엽서' },
+    ],
+    tips: [
+      '1층 베이커리 북카페에서 빵과 커피를 마시며 여유롭게 책과 문구를 구경할 수 있습니다.',
+      '강릉역에서 도보 10분 거리로 여행 첫날이나 마지막 코스로 들르기 좋습니다.'
+    ],
+    tags: ['감성소품', '비오는날추천', '주차편리'],
+    imageUrl: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80',
+    naverMapUrl: 'https://map.naver.com/v5/search/%EA%B3%A0%EB%9E%98%EC%B1%85%EB%B0%A9',
+    kakaoMapUrl: 'https://map.kakao.com/?q=%EA%B3%A0%EB%9E%98%EC%B1%85%EB%B0%A9',
+    isMustVisit: true
+  },
+  {
+    id: 'midday-sea-books',
+    name: '한낮의 바다 (Midday Sea)',
+    category: 'stationery',
+    categoryLabel: '문구샵',
+    region: 'downtown',
+    regionLabel: '시내·옥천동',
+    rating: 4.9,
+    reviewCount: 780,
+    coordinates: [37.7558, 128.8998],
+    address: '강원 강릉시 옥천로 61번길 6 1층',
+    openingHours: '12:00 - 18:00 (화, 수 휴무)',
+    priceRange: '블라인드 북 15,000원~ / 문구 2,500원~',
+    shortDesc: '직접 말린 압화와 손글씨로 포장한 블라인드 북 & 서정적인 감성 문구',
+    fullDesc: '골목 안쪽에 조용히 자리 잡은 서정적인 분위기의 책방 겸 문구점. 표지를 가리고 키워드 손글씨와 말린 꽃으로 정성스레 포장한 블라인드 데이트 북(Blind Date with a Book), 바다를 닮은 푸른빛 노트와 감성 연필, 엽서들을 정갈하게 선보입니다.',
+    signatureItems: [
+      { name: '손글씨 압화 블라인드 북', price: '도서 정가', isBest: true, desc: '키워드만 보고 고르는 선물용 비밀 책' },
+      { name: '한낮의 바다 패브릭 북커버', price: '18,000원', isBest: true, desc: '바다색 린넨으로 만든 핸드메이드 책 표지' },
+    ],
+    tips: [
+      '나에게 주는 선물이나 소중한 사람에게 감동을 주는 여행 선물로 손꼽힙니다.',
+      '차분하고 조용한 공간으로 책 향기를 느끼며 힐링할 수 있습니다.'
+    ],
+    tags: ['감성소품', '선물용포장'],
+    imageUrl: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80',
+    naverMapUrl: 'https://map.naver.com/v5/search/%ED%95%9C%EB%82%AE%EC%9D%98%EB%B0%94%EB%8B%A4',
+    kakaoMapUrl: 'https://map.kakao.com/?q=%ED%95%9C%EB%82%AE%EC%9D%98%EB%B0%94%EB%8B%A4'
+  },
+  {
+    id: 'chamkkae-bookstore',
+    name: '참깨책방 깨북',
+    category: 'stationery',
+    categoryLabel: '문구샵',
+    region: 'downtown',
+    regionLabel: '시내·교동',
+    rating: 4.8,
+    reviewCount: 520,
+    coordinates: [37.7620, 128.8910],
+    address: '강원 강릉시 교동 (강릉시립미술관 인근)',
+    openingHours: '13:00 - 18:00 (월, 화 휴무)',
+    priceRange: '독립출판물 및 문구 3,000원~',
+    shortDesc: '강릉 독립서점 1세대의 명맥! 개성 넘치는 독립출판 서적과 로컬 굿즈·문구',
+    fullDesc: '초당동 시절부터 강릉의 독립출판 문화를 이끌어온 터줏대감 독립서점. 일반 서점에서는 찾기 힘든 전국 독립출판 작가들의 zine, 드로잉 북, 작가 제작 스티커와 연필, 로컬 북마크를 만날 수 있습니다.',
+    signatureItems: [
+      { name: '로컬 독립출판 드로잉 진(Zine)', price: '8,000원~', isBest: true, desc: '작가의 개성이 오롯이 담긴 소량 제작 책' },
+      { name: '깨북 나무 연필 & 엽서 세트', price: '5,000원', isBest: false, desc: '아날로그 기록을 위한 흑연 연필 세트' },
+    ],
+    tips: [
+      '책방 지기의 따뜻한 도서 큐레이션 메모를 읽는 재미가 있습니다.',
+      '강릉시립미술관 관람 전후로 들르기 좋습니다.'
+    ],
+    tags: ['감성소품'],
+    imageUrl: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80',
+    naverMapUrl: 'https://map.naver.com/v5/search/%EC%B0%B8%EA%B9%A8%EC%B1%85%EB%B0%A9%20%EA%B9%A8%EB%B6%81',
+    kakaoMapUrl: 'https://map.kakao.com/?q=%EC%B0%B8%EA%B9%A8%EC%B1%85%EB%B0%A9%20%EA%B9%A8%EB%B6%81'
+  },
+  {
+    id: 'wolhwa-station-goods',
+    name: '월화역 대합실 (기차역 캐릭터 문구점)',
+    category: 'stationery',
+    categoryLabel: '문구샵',
+    region: 'downtown',
+    regionLabel: '시내·중앙시장',
+    rating: 4.8,
+    reviewCount: 1950,
+    coordinates: [37.7533, 128.8988],
+    address: '강원 강릉시 금성로11번길 21',
+    openingHours: '11:00 - 20:00 (주말 20:30까지)',
+    priceRange: '팬시 문구 1,500원 ~ 15,000원',
+    shortDesc: '옛 기차역 대합실 콘셉트! 강릉 캐릭터 인형, 스티커, 문구, 양말 총집합',
+    fullDesc: '폐철도 월화거리 바로 앞에 위치하여 옛날 기차역 대합실을 테마로 꾸며진 인기 캐릭터 문구점. 기차 티켓 모양의 엽서, 레트로 스탬프, 다채로운 캐릭터 키링, 볼펜, 수첩 등 여행의 설렘을 배가시키는 아기자기한 팬시 문구가 가득합니다.',
+    signatureItems: [
+      { name: '월화역 기차 티켓 메모지', price: '3,000원', isBest: true, desc: '옛 승차권 느낌의 위트 있는 떡메모지' },
+      { name: '강릉 기념 캐릭터 아크릴 키링', price: '6,500원', isBest: true, desc: '월화역 마스코트 키링' },
+    ],
+    tips: [
+      '월화거리 포토존에서 사진을 찍고 바로 들러 기념품과 문구를 사기 가장 좋습니다.',
+      '학생과 20대 커플 여행객에게 특히 인기가 많습니다.'
+    ],
+    tags: ['감성소품', '가성비'],
+    imageUrl: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80',
+    naverMapUrl: 'https://map.naver.com/v5/search/%EA%B0%95%EB%A6%89%20%EC%9B%94%ED%99%94%EC%97%AD',
+    kakaoMapUrl: 'https://map.kakao.com/?q=%EA%B0%95%EB%A6%89%20%EC%9B%94%ED%99%94%EC%97%AD'
+  }
+];
